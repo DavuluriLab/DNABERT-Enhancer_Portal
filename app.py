@@ -875,7 +875,7 @@ else:  # About page
     st.markdown("""
     <div style="text-align: justify;">
     <h5>Acknowledgements:</h5>
-    We thank all members of the Davuluri lab ( 548 The State University of the State University of New York at Stony Brook) and Dante Bolzan 
+    We thank all members of the Davuluri lab (The State University of the State University of New York at Stony Brook) and Dante Bolzan 
     (Ay Lab - La Jolla Institute for Immunology) for critical discussions and helpful 
     advice. This work was financially supported by grants from National Library of Medicine/National
     Institutes of Health funding – [R01LM01372201 to R.D., R35GM128938 to F.A]<br>
