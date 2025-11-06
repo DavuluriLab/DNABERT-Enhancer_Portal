@@ -7,7 +7,7 @@ It also provides access to **genome-wide enhancer predictions** across the human
 This web application enables users to **visualize, search, and interpret enhancer regions** and their potential **functional impact in a genomic context**.
 
 ### Study layout
-<img src="figures/Graphical_Abstract.png" alt="DNABERT-Enhancer" width="600"/>
+<img src="figures/Graphical_abstract.png" alt="DNABERT-Enhancer" width="600"/>
 
 ### Repository Structure
 ```
