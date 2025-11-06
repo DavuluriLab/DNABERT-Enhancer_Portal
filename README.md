@@ -8,6 +8,7 @@ This web application enables users to **visualize, search, and interpret enhance
 
 ### Study layout
 <img src="figures/Graphical_Abstract.png" alt="DNABERT-Enhancer" width="600"/>
+
 ### Repository Structure
 ```
 your-app/
