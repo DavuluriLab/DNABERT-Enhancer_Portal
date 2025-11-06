@@ -1,10 +1,7 @@
 # DNABERT-Enhancer_Portal
 
 ### Overview
-The **DNABERT-Enhancer portal** offers an interactive platform to explore candidate **gain- and loss-of-function enhancer variants** predicted by the *DNABERT-Enhancer-350* model using **ENCODE SCREEN enhancers (350 bp)**.  
-It also provides access to **genome-wide enhancer predictions** across the human reference genome (*GRCh38*).
-
-This web application enables users to **visualize, search, and interpret enhancer regions** and their potential **functional impact in a genomic context**.
+The **DNABERT-Enhancer portal** offers an interactive platform to explore candidate **gain- and loss-of-function enhancer variants** predicted by the *DNABERT-Enhancer-350* model using **ENCODE SCREEN enhancers (350 bp)**. It also provides access to **genome-wide enhancer predictions** across the human reference genome (*GRCh38*). This web application enables users to **visualize, search, and interpret enhancer regions** and their potential **functional impact in a genomic context**.
 
 ### Study layout
 <img src="figures/Graphical_abstract.png" alt="DNABERT-Enhancer" width="600"/>
