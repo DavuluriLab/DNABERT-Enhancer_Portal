@@ -308,7 +308,7 @@ if page == "📊 Browse Data":
                 )
 
             # --- Optimize table display for speed ---
-            max_rows = 50  # number of rows to display (you can make it a user option too)
+            max_rows = 15  # number of rows to display (you can make it a user option too)
 
             # Apply all filters/search as before
             # filtered_display_df = <your existing filtered dataframe>
@@ -385,12 +385,14 @@ if page == "📊 Browse Data":
 
             # --- Download option ---
             csv = filtered_display_df.to_csv(index=False).encode('utf-8')
-            st.download_button(
-                label="📥 Download Filtered Variants (CSV)",
-                data=csv,
-                file_name="filtered_candidate_variants.csv",
-                mime="text/csv"
-            )
+            # st.download_button(
+            #     label="📥 Download Filtered Variants (CSV)",
+            #     data=csv,
+            #     file_name="filtered_candidate_variants.csv",
+            #     mime="text/csv"
+            # )
+            if st.button("Download Data", key="download_tab1"):
+                st.info("Data will be available for download after the article is published.")
         
         # --- Detailed info section (below the table) ---
         st.markdown("---")
@@ -687,16 +689,18 @@ if page == "📊 Browse Data":
                 st.rerun()
 
         with col2:
-            st.dataframe(filtered_df.head(50), use_container_width=True, height=500, hide_index=True)
+            st.dataframe(filtered_df.head(15), use_container_width=True, height=500, hide_index=True)
 
             # Download option
             csv = filtered_df.to_csv(index=False).encode('utf-8')
-            st.download_button(
-                label="📥 Download Filtered Enhancers (CSV)",
-                data=csv,
-                file_name="filtered_enhancer_regions.csv",
-                mime="text/csv"
-            )
+            # st.download_button(
+            #     label="📥 Download Filtered Enhancers (CSV)",
+            #     data=csv,
+            #     file_name="filtered_enhancer_regions.csv",
+            #     mime="text/csv"
+            # )
+            if st.button("Download Data", key="download_tab2"):
+                st.info("Data will be available for download after the article is published.")
         
 else:  # About page
     st.title("About DNABERT-Enhancer portal")
